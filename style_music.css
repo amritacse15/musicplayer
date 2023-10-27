@@ -1,0 +1,272 @@
+body{
+    background-color: rgb(246, 248, 145);
+}
+#header{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    margin: -10px -5px -10px 0px;
+    display: flex;
+}
+.headerLeft{
+    display: flex;
+    width: 50%;
+}
+.studio{
+    margin-top: 15px;
+}
+.favourites{
+    font-size: 1.5rem;
+    margin: 40px 30px 0px 100px;
+    
+}
+.music_icon img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.headerRight{
+    width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+.search{
+	height: 1.1rem;
+	margin: 20px;
+    
+	background: white;
+	border: 2px solid #131d52;
+	border-radius: 30px;
+	padding: 3px;
+    padding-bottom: 20px;
+	background-color: #131d52;
+    
+
+}
+form{
+	margin:0px;
+}
+.search input{
+	padding: 5px;
+	padding-bottom: 7px;
+	background-color: transparent;
+	height: 20px;
+	border: none;
+	margin: 7px;
+	font-size: 20px;
+	outline: none;
+	color: white;
+}
+.search .search-icon,
+.search .mic-icon{
+	font-size: 17px;
+	color:gray;
+	background: transparent;
+	border: none;
+	transition: all 0.2s ease-in;
+}
+.search .search-icon:hover,
+.search .mic-icon:hover{
+    color: cyan;
+}
+.headerRight .bell-icon {
+	color: white;
+	background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 10px; 
+}
+.headerRight .bell-icon:hover{
+    animation: ring 0.4s linear infinite;
+}
+@keyframes ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-25deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(25deg);
+    }
+}
+
+
+
+/* main content.......................................................................... */
+.nav{
+    padding-top: 80px;
+    display: flex;
+}
+.left{
+    padding-left: 50px;
+    height: 100vh;
+    width: 70%;
+    background-color: blue;
+}
+.right{
+    height:500px;
+    width: 30%;
+    background-color: blueviolet;
+
+}
+/* left side ..................................................................*/
+.left_div1{
+    margin-top: 20px;
+}
+.left_div1 a img{
+    height: 200px;
+    width: 270px;
+}
+.left_div1 a img:hover{
+    height: 220px;
+    width: 290px;
+}
+.left_div2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div2_inner{
+    width: 400px;
+    display: flex;
+    
+}
+
+.song_img img{
+    height: 60px;
+    width: 60px;
+}
+.song_name{
+    padding-right: 140px;
+}
+.song_name h4{
+    margin-top:10px;
+    margin-left: 10px;
+}
+.song_name p{
+    font-size: 12px;
+    margin-top: -18px;
+    margin-left: 10px;
+}
+.song_nameD h3{
+    margin-top: 5px;
+}
+.song_nameD p{
+    font-size: 11px;
+    margin-top: -15px;
+}
+.div2_inner:hover{
+
+}
+/* singers....................................................... */
+.singers{
+    /* display: inline-block; */
+    display: flex;
+}
+.singers div{
+    padding-right:10px ;
+}
+
+.singers div a img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.singers div a img:hover{
+
+}
+
+/* radiostation............................................................... */
+.station_nav{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+.station_pic img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+.stations_songs img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.stations_songs img:hover{
+    opacity: 0.7;
+
+}
+/* ..................party................... */
+.partyDiv a img{
+    height: 200px;
+    width: 290px;
+    margin-top: 20px;
+    /* transition: 1s ease-out; */
+
+
+}
+.partyDiv a img:hover{
+    transform: scale(1.5);
+
+    
+
+}
+
+/* English  new ................................................ */
+.englishNav{
+    display: flex;
+}
+.EngSong a img{
+    height: 200px;
+    width: 210px;
+    margin-right: 15px;
+    border-radius: 5%;
+
+}
+.EngSong h3{
+    margin: -5px 0px 0px 50px;
+}
+.EngSong p{
+    margin:0px 0px 0px 50px ;
+}
+/* ........queue and queue drop............ */
+.queue {
+    display: flex;
+    
+}
+.queue span{
+   margin-top: 25px;
+   margin-left: 200px;
+   color: aqua;
+}
+.queue i{
+    margin-top: 25px;
+    margin-left: 10px;
+    color: aqua;
+    
+}
+.queue i:hover{
+    
+}
+/* songs of right section */
+#rightsideSong{
+    margin-left: 10px;
+}
+.heart{
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.number h3{
+    margin: 5px;
+    margin-top: 15px;
+
+}
